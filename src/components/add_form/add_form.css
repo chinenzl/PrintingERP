@@ -1,0 +1,27 @@
+.job_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input_container span {
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+    /* 添加间距，根据需要调整 */
+}
+
+.info_box {
+    width: 100%;
+}
+
+/* span {
+    width: 800px;
+    margin-left: 70px;
+    margin-right: 100px;
+} */

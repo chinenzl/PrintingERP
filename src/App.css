@@ -27,6 +27,11 @@
 .App-link {
   color: #61dafb;
 }
+.root{
+  display: grid;
+  place-items: center; /* 居中 */
+  
+}
 
 @keyframes App-logo-spin {
   from {
