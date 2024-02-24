@@ -3,8 +3,7 @@ import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import { Link,useNavigate } from 'react-router-dom';
 import OAuth from '../../components/OAuth';
-import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
-import {getAuth, createUserWithEmailAndPassword, updateProfile} from "firebase/auth";
+import {getAuth, createUserWithEmailAndPassword} from "firebase/auth";
 import {db} from "../../firebase"
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore';
 import {toast} from "react-toastify"

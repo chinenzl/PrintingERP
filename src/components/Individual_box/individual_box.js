@@ -6,7 +6,7 @@ function IndividualBox() {
     return (
         <div className="individual_box">
             <div className="box_header">
-                <div className="left">
+                <div className="individualBox-left">
                     <span className="staff_name">Liam</span>
                     <span className="job-count">18</span>
                 </div>
